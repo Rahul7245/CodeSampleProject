@@ -1,0 +1,34 @@
+{
+    "name": "CustomControls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "956a5fd9-cf0d-41b5-bfa5-6e6350e39afd",
+            "actions": [
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "d684c04a-ae22-467f-a5dd-34ec26ea9e35",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0e59f955-a53f-4bf7-9f6a-1b1ec8448e5e",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
